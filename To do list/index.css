@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(233, 233, 233);
+   
+}
+
+.inputform , .upadateform {
+    display: none;
+}
+
+.container{
+    overflow: hidden;
+    border: 2px solid black;
+  width: 50%;
+   height: 100vh;
+  justify-content: center;
+ align-items: center;
+ border-radius: 10%;
+ position: relative;
+ box-shadow: 25px 25px 75px rgba(0, 0, 0, 0.25),
+ 10px 10px 70px rgba(0,0,0,0.25),
+ inset 5px 5px 10px rgba(0,0,0,0.25),
+ inset 5px 5px 20px rgba(255,255 ,255,0.2),
+ inset -5px -5px 15px rgba(0, 0, 0, 0.75);
+ 
+}
+
+.inputform ::placeholder{
+    align-items: center;
+    text-align: center;
+}
+
+.inputform input{
+    margin-left: 60px;
+     height: 40px;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.form{
+    margin-bottom: 60%;
+   
+   
+}
+
+.form h1{
+
+    margin: 10px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:50px;
+}
+
+.tablehai{
+    margin: 20px;
+}
+
+button.delet{
+    background-color: red;
+}
+
+button .delet{
+    color: orange
+}
+
+.upadateform ::placeholder{
+  
+    font-family: cursive;
+    text-align: center;
+   
+}
+
+button:hover{
+    background-color: rgb(197, 103, 103);
+}
+
+.Addingbtn{
+    margin-left: 3%;
+    background-color: rgb(16, 53, 172);
+}
+.Addingbtn:hover{
+    background-color: rgb(182, 231, 5);
+}
+
+.tablehai{
+    width: 100%;
+    overflow: hidden; 
+     /* margin-top: 15px; */
+     margin-left: 70px;
+     justify-content:center;
+
+}
+
+
