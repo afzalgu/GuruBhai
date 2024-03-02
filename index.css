@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.conatiner{
+    text-align: center;
+    margin-top: 25px;
+     position: absolute; 
+     width: 30%;
+     height: 510px;
+     align-items: center;
+     margin-left: 30%;
+     background-color: rgb(60, 75, 75);
+     border-radius: 20px;
+}
+
+.conatiner h1{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+
+
+.buttons button{
+    /* justify-content:space-evenly; */
+    font-weight: bold;
+    font-size: 18px;
+    margin: 8px;
+     width: 70px;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: 5px 7px px 2px ;
+    overflow: scroll;
+    display: flexbox
+     
+    
+}
+
+.delete{
+    background-color: rgb(75, 73, 73);
+    color: white;
+}
+.equal{
+    color: white;
+    background-color: red;
+}
+
+.reset{
+    background-color: rgb(75, 73, 73);
+    color: white;
+}
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+     
+         <div class="conatiner">
+            <!-- <h2>Simple Calculator</h2> -->
+            <br><br>
+            <!-- <div class="mainscreen"> -->
+               
+            <form action="" id="CalculatorForm">
+                
+                <!-- <textarea name="box" id="screenid" ></textarea> -->
+                <div class="jname">
+                    <span>   <input type="text" id="screenid"placeholder="Enter a number" style="width: 400px; height: 150px; font-size: 30px; font-weight: bold; border-radius: 5px; border: 2px solid black; box-shadow: -10px -9px -2px -1px;" ></span>
+             
+        </div>
+                
+                <div class="buttons" >
+                    <button onclick="appendToScreen('7')" class="sev">7</button>
+                    <button onclick="appendToScreen('8')" class="eig">8</button>
+                    <button onclick="appendToScreen('9')">9</button>
+                    <button onclick="deleteLastChar()" class="delete">DEL</button>
+                    <button onclick="appendToScreen('4')">4</button>
+                    <button onclick="appendToScreen('5')">5</button>
+                    <button onclick="appendToScreen('6')">6</button>
+                    <button onclick="appendToScreen('+')" id="add">+</button>
+                    <button onclick="appendToScreen('1')">1</button>
+                    <button onclick="appendToScreen('2')">2</button>
+                    <button onclick="appendToScreen('3')">3</button>
+                    <button onclick="appendToScreen('-')" id="minus">-</button>
+                    <button onclick="appendToScreen('.')">.</button>
+                    <button onclick="appendToScreen('0')">0</button>
+                    <button onclick="appendToScreen('/')" id="divide">/</button>
+                    <button onclick="appendToScreen('*')" id="multiply">x</button>
+                    <button style="width: 35%;" onclick="resetScreen()" class="reset">Reset</button>
+                   
+                    <button style="width: 35%;" onclick="calculateResult()" class="equal" >=</button>
+                    
+                </div>
+            </form>
+
+        </div>
+
+         </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
